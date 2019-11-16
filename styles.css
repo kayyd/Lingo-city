@@ -1,7 +1,7 @@
 body {
-        color: rgb(192,192,192);
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        margin: 0;
+        color:rgb(192,192,192);
+        font-family:"Trebuchet MS",Helvetica,sans-serif;
+        margin:0;
     }
 div {
         min-height: 100vh;
