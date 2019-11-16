@@ -77,3 +77,29 @@ li:hover {
   font-size: 1.2em;
   transition: 0.6s ease;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+nav {
+    background-color: rgba(224, 224, 224, 0.9);
+    border-radius: 0px;
+    border-color: white;
+    height: 90px;
+    top: 0;
+}
