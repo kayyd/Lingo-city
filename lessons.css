@@ -13,6 +13,8 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 .page-titlebar {
+    margin: 10vh 100vw;
+    width: 90%;
     padding: 21px 0 22px;
     border-bottom: 1px solid #eaecee;
     word-break: break-word;
