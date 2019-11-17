@@ -1,6 +1,6 @@
 .entry-content>* {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: inherit;
+    margin-right: inherit;
 }
 
 body {
