@@ -1,1 +1,17 @@
-
+.entry-content>* {
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    margin: 0 0 1.41575em;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
