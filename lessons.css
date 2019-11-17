@@ -12,9 +12,6 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-*, :after, :before {
-    box-sizing: inherit;
-}
 
 html {
     background-color: #C0C0C0;
@@ -27,15 +24,6 @@ html {
 div {
     min-height: 100vh;
     width: 100vw;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-div {
-    display: block;
 }
 body {
     color: rgb(0,0,0);
