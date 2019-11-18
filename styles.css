@@ -40,6 +40,9 @@ p {
         margin: 10vh 10vw;
         font-size: 1em;
 }
+.author {
+  line-height:normal;
+}
 a {
         color: rgb(0,0,0);
 }
