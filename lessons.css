@@ -98,3 +98,8 @@ li {
     margin: 0 20px;
     transition: 0.6s ease;
 }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
