@@ -14,7 +14,7 @@ head {
 body {
         color:rgb(0,0,0);
         font-family:"Trebuchet MS",Helvetica,sans-serif;
-        margin:0;
+        margin:10%;
     }
 h1, h2 {
         text-align: center;
@@ -43,8 +43,8 @@ a {
 }
 ol {
         list-style: none;
-        padding: 0;
-        margin-bottom: 0%;
+        padding: 5;
+        margin-bottom: 10%;
         font-size: 2em;
         display: flex;
         justify-content: space-evenly;
