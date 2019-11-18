@@ -44,12 +44,19 @@ tbody {
   .navbar-header ul{
     display:flex;
     justify-content: space-between;
+    width:80%;
   }
-  .navbar-header ul a{
+  .navbar-header ul a {
     text-decoration: none;
 
   }
-
+  .navbar-header ul li {
+    width: 15%;
+  }
+  ul{
+      list-style: none;
+      display: flex;
+  }
   ul {
     display: block;
     list-style-type: disc;
