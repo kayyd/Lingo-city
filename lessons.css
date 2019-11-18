@@ -90,3 +90,7 @@ nav {
 
 nav {
     display: block;
+}
+.navbar-nav{
+  margin: 0
+}
