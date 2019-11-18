@@ -32,9 +32,10 @@ img {
         border-radius: 80px;
 }
 p {
-        width: 95%;
+        width: 90%;
         font-size: 1em;
         margin-left:5%;
+        margin-right: 5%;
 }
 .author {
   line-height:normal;
