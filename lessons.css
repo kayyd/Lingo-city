@@ -35,3 +35,16 @@ tbody {
 .navbar-nav li a{
   display: block;
   line-height: 50px}
+
+  *:before, *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .navbar-header ul{
+    display:flex;
+  }
+  .navbar-header ul a{
+    text-decoration: none;
+
+  }
