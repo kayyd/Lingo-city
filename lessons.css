@@ -28,3 +28,10 @@ tbody {
   margin: 10vh 100vw
   font-size: 12;
 }
+.nav
+.navbar-nav li{
+  line-height: 150px
+}
+.navbar-nav li a{
+  display: block;
+  line-height: 50px}

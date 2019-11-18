@@ -136,3 +136,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.nav
+.navbar-nav li{
+  line-height: 150px
+}
+.navbar-nav li a{
+  display: block;
+  line-height: 50px}
