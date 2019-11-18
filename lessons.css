@@ -61,10 +61,6 @@ tbody {
     width: 15%;
     text-align: center;
   }
-  ul{
-      list-style: none;
-      display: flex;
-  }
   ul {
     display: block;
     list-style-type: disc;
@@ -73,8 +69,6 @@ tbody {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
-ul {
     list-style: none;
     display: flex;
 }
