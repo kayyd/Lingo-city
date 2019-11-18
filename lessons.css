@@ -19,7 +19,7 @@ body {
     word-break: break-word;
     background: #f9f9f9;
 }
-h1{
+.titlebar-title {
   margin: 0;
   line-height:2
 }
