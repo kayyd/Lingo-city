@@ -43,6 +43,7 @@ tbody {
   }
   .navbar-header ul{
     display:flex;
+    justify-content: space-between;
   }
   .navbar-header ul a{
     text-decoration: none;
