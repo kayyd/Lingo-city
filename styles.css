@@ -34,7 +34,7 @@ img {
 p {
         width: 100%;
         font-size: 1em;
-        margin: 3%;
+        margin-left:1px;
 }
 .author {
   line-height:normal;
