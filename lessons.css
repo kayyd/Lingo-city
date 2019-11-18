@@ -54,7 +54,8 @@ tbody {
     width:80%;
   }
   .navbar-header ul a {
-    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
 
   }
   .navbar-header ul li {
@@ -92,12 +93,4 @@ nav {
 }
 .navbar-nav{
   margin: 0
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-li {
-    text-align: -webkit-match-parent;
 }
