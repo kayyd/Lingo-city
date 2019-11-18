@@ -104,3 +104,6 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+li {
+    text-align: -webkit-match-parent;
+}
