@@ -99,3 +99,8 @@ nav {
 .navbar-nav{
   margin: 0
 }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
