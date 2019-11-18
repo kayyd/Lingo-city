@@ -43,8 +43,8 @@ a {
 }
 ol {
         list-style: none;
-        padding: 5;
-        margin-bottom: 10%;
+        padding: 5%;
+        margin-bottom: 5%;
         font-size: 2em;
         display: flex;
         justify-content: space-evenly;
