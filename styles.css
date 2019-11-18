@@ -67,6 +67,7 @@ div.contrast {
 ul {
   list-style: none;
   display: flex;
+  text-align: right;
 }
 li {
   margin: 0 20px;
