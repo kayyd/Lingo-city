@@ -7,10 +7,6 @@ html {
       -moz-osx-font-smoothing: grayscale;}
   }
 
-head {
-
-}
-
 body {
         color:rgb(0,0,0);
         font-family:"Trebuchet MS",Helvetica,sans-serif;
@@ -25,7 +21,7 @@ h1 {
 h2 {
         font-size: 1.5em;
 }
-img {
+img.main {
         display: flex;
         padding: 10px;
         margin: 0 auto;
@@ -69,6 +65,10 @@ ul {
   display: flex;
   text-align: right;
 }
+ul.logo{
+  text-align:left;
+
+}
 li {
   margin: 0 20px;
   transition: 0.6s ease;
@@ -85,15 +85,13 @@ li:hover {
 }
 
 @media (min-width: 768px)
-.navbar {
-    border-radius: 4px;
-}
 
 .navbar {
     position: right;
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 nav {
@@ -107,35 +105,6 @@ nav {
 nav {
     display: block;
 }
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block;
-}
-.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
-    display: table;
-    content: " ";
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
-    clear: both;
-}
-.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
-    display: table;
-    content: " ";
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 footer{
   display:flex;
   text-align: center;
@@ -146,8 +115,10 @@ footer a{
 }
 .nav
 .navbar-nav li{
-  line-height: 150px
+  line-height: 150px;
+  margin: 0;
 }
 .navbar-nav li a{
   display: block;
-  line-height: 50px}
+  line-height: 50px;
+}

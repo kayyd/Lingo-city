@@ -34,7 +34,6 @@ tbody {
   margin: 10vh 100vw
   font-size: 12;
 }
-.nav
 .navbar-nav li{
   line-height: 150px
 }
@@ -42,12 +41,6 @@ tbody {
   display: block;
   line-height: 50px
 }
-
-  *:before, *:after {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
   .navbar-header ul{
     display:flex;
     justify-content: space-between;
@@ -105,4 +98,12 @@ li {
 }
 .nav-link:hover{
   font-size: 18px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
