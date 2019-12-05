@@ -46,12 +46,6 @@ ol {
         display: flex;
         justify-content: space-evenly;
 }
-li#lower {
-  margin-top: 2%;
-}
-li#lowest {
-  margin-top: 8%;
-}
 div.contrast {
   background-color: rgb(0,0,0);
   color: rgb(255,255,255);
@@ -100,23 +94,27 @@ nav {
     border-color: white;
     height: 90px;
     top: 0;
+    float: right;
 }
 
 nav {
     display: block;
 }
 footer{
-  display:flex;
+  display: inline;
   text-align: center;
   justify-content: space-around;
 }
 footer a{
   display: block
 }
-.nav
+.nav{
+  float: right;
+}
 .navbar-nav li{
   line-height: 150px;
   margin: 0;
+  display: inline;
 }
 .navbar-nav li a{
   display: block;
