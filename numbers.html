@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Numbers</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
 
+        <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 40%;
+          align: center;
+          margin-left: 33%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 4px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        #numb{
+          margin-left: 5%;
+        }
+        #numb2{
+          margin-left: 5%;
+        }
+        #numb3{
+          margin-left: 5%;
+        }
+        </style>
+
+</head>
+<body>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <nav class="navbar">
+      <div class="navbar-header">
+        <ul class="nav">
+            <li><a class="nav-link" href="index_complete.html"><b>Home</b></a></li>
+            <li><a class="nav-link" href="about.html"><b>About Us</b></a></li>
+            <li><a class="nav-link" href="lessons.html"><b>Classroom Lessons</b></a></li>
+            <li><a class="nav-link" href="game-page.html"><b>Games</b></a></li>
+            <li><a class="nav-link" href="numbers.html"><b>Numbers</b></a></li>
+            <li><a href="join-page.html"><button type="button" class="btn btn-dark"><b>Join</b></button></a></li>
+        </ul>
+      </div>
+    </nav>
+
+<h2 class="home2">Numbers</h2>
+
+<p class="lessonsp">Let's learn some numbers with the table below! The pronunciation is brackets to help.</p>
+
+<table>
+  <tr>
+    <th>English</th>
+    <th>Korean</th>
+    <th>Sino Korean</th>
+  </tr>
+  <tr>
+    <td>One</td>
+    <td>하나 [hana]</td>
+    <td>일 [il]</td>
+  </tr>
+  <tr>
+    <td>Two</td>
+    <td>둘 [dool]</td>
+    <td>이 [ee]</td>
+  </tr>
+  <tr>
+    <td>Three</td>
+    <td>셋 [set]</td>
+    <td>삼 [sam]</td>
+  </tr>
+  <tr>
+    <td>Four</td>
+    <td>넷 [net]</td>
+    <td>사 [sa]</td>
+  </tr>
+  <tr>
+    <td>Five</td>
+    <td>다섯 [da-seot]</td>
+    <td>오 [oh]</td>
+  </tr>
+  <tr>
+    <td>Six</td>
+    <td>여섯 [yeo-seot]</td>
+    <td>육 [yook]</td>
+  </tr>
+  <tr>
+    <td>Seven</td>
+    <td>일곱 [il-gop]</td>
+    <td>칠 [chil]</td>
+  </tr>
+  <tr>
+    <td>Eight</td>
+    <td>여덟 [yeo-deol]</td>
+    <td>팔 [pal]</td>
+  </tr>
+  <tr>
+    <td>Nine</td>
+    <td>아홉 [ah-hop]</td>
+    <td>구 [goo]</td>
+  </tr>
+  <tr>
+    <td>Ten</td>
+    <td>열 [yeol]</td>
+    <td>십 [ship]</td>
+  </tr>
+</table>
+
+<p class="lessonsp" style="margin-top: 2%">Practice what you have learnt and input the correct number between 1 and 10 in the boxes below to correspond to the Korean number being asked for.</p>
+
+<p class="lessonsp">Write the number for 하나 [hana]:</p>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p class="lessonsp" id="demo"></p>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x == 1 || x == 1) {
+    text = "Input OK";
+  } else {
+    text = "Input not valid";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+<p class="author"><br>Thanks for visiting our page!</br>
+  <br>Find us on our social media channels below.</br>
+<footer class="panel-footerabout" style="display:flex">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="https://en-gb.facebook.com/codefirstgirls/" class="fa fa-facebook"></a>
+  <a href="https://www.instagram.com/codefirstgirls/" class="fa fa-instagram"></a>
+  <a href="https://twitter.com/CodeFirstGirls" class="fa fa-twitter"></a>
+  <a href="https://www.linkedin.com/company/code-first-girls" class="fa fa-linkedin"></a>
+</footer>
+</body>
+</html>
