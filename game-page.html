@@ -1,72 +1,60 @@
-<DOCTYPE!HTML>
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lingo City- Games</title>
-        <link rel="stylesheet" type="text/css" href="game-page.css">
+  <title>Games</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<body class="game">
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <nav class="navbar">
       <div class="navbar-header">
-          <ul class="nav navbar-nav navbar-right">
-              <li><img src="Ling0.png" height="95px" width="150px" alt="CodeFirstGirls"></li>
-              <li><a class="nav-link" href="about.html">About LingoCity</a></li>
-              <li><a class="nav-link" href="lessons.html">Lessons/Classrooms</a></li>
-              <li><a class="nav-link" href="game-page.html">Games</a></li>
+        <ul class="nav">
+            <li><a class="nav-link" href="index_complete.html"><b>Home</b></a></li>
+            <li><a class="nav-link" href="about.html"><b>About LingoCity</b></a></li>
+            <li><a class="nav-link" href="lessons.html"><b>Classroom Lessons</b></a></li>
+            <li><a class="nav-link" href="game-page.html"><b>Games</b></a></li>
+            <li><a href="join-page.html"><button type="button" class="btn btn-dark"><b>Join</b></button></a></li>
         </ul>
       </div>
-      <div class="collapse navbar-collapse">
-      </div>
     </nav>
-  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-
-  <div>
-
-
-    <p>Wanna take a break? Play a game to practice what you've learned!</p>
-
+<div>
+    <p class="gamep1">Need a break?</p>
+    <p class="gamep">Practice some vocabulary you have learned with our flipcard memory game!</p>
 </div>
 
 
 <div class="flipCard">
-  <link rel="stylesheet" type="text/css" href="game-page.css">
   <div class="card" onclick="this.classList.toggle('flipped');">
     <div class="side front">Games</div>
-    <div class="side back">Juegos</div>
+    <div class="side back">게임</div>
   </div>
 </div>
-    <link rel="stylesheet" type="text/css" href="game-page.css">
 
-    <div class="FlipCard">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front">Beautiful</div>
-        <div class="side back">Bonita</div>
-      </div>
+<div class="FlipCard">
+  <div class="card" onclick="this.classList.toggle('flipped');">
+    <div class="side front">Beautiful</div>
+    <div class="side back">아름답다</div>
+  </div>
+</div>
+
+<div class="flipcard">
+    <div class="card" onclick="this.classList.toggle('flipped');">
+      <div class="side front">City</div>
+      <div class="side back">도시</div>
     </div>
-        <link rel="stylesheet" type="text/css" href="game-page.css">
-
-        <div class="flipcard">
-          <div class="card" onclick="this.classList.toggle('flipped');">
-            <div class="side front">City</div>
-            <div class="side back">Ciudad</div>
-          </div>
-        </div>
-            <link rel="stylesheet" type="text/css" href="game-page.css">
-            <footer class="panel-footerabout" style="display:flex">
-              <a href="https://twitter.com/CodeFirstGirls" class="social" target="_blank">
-                <img title="Twitter" alt="Twitter" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="90" height="90">
-              </a>
-              <a href="https://en-gb.facebook.com/codefirstgirls/" class="social" target="_blank">
-                <img title="Facebook" alt="Facebook" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="90" height="90">
-              </a>
-              <a href="https://www.linkedin.com/company/code-first-girls" class="social" target="_blank">
-                <img title="LinkedIn" alt="LinkedIn" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="90" height="90">
-              </a>
-              <a href="https://www.instagram.com/codefirstgirls/" class="social" target="_blank">
-                <img title="Instagram" alt="Instagram" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="90" height="90">
-              </a>
-            </footer>
-          </body>
+</div>
+<p class="author"><br>Thanks for visiting our page!</br>
+  <br>Find us on our social media channels below.</br>
+<footer class="panel-footerabout" style="display:flex">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <a href="https://en-gb.facebook.com/codefirstgirls/" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/codefirstgirls/" class="fa fa-instagram"></a>
+      <a href="https://twitter.com/CodeFirstGirls" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/company/code-first-girls" class="fa fa-linkedin"></a>
+</footer>
+</body>
+</html>
